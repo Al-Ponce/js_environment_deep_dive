@@ -38,7 +38,7 @@ And this is the latest revision.
 ---
 
 ## (ES5, 2009)
-In ES5 the concept of `variable object` is replaced with `lexical environments` model.  
+**In ES5 the concept of `variable object` is replaced with `lexical environments` model.**  
 
 ### 10.2 Lexical Environments  
 > - A `Lexical Environment` is a specification type used to define the association of Identifiers to specific variables and functions based upon the lexical nesting structure of ECMAScript code.  
@@ -70,7 +70,7 @@ In ES5 the concept of `variable object` is replaced with `lexical environments` 
 ---
 
 ## (ES12- , 2021- )
-In ES12 the concept of `lexical environments` is replaced with `Environment Records` model.
+**In ES12 the concept of `lexical environments` is replaced with `Environment Records` model.**
 
 ### 9.1 Environment Records
 > - `Environment Record` is a specification type used to define the association of Identifiers to specific variables and functions, based upon the lexical nesting structure of ECMAScript code.  
@@ -86,3 +86,8 @@ In ES12 the concept of `lexical environments` is replaced with `Environment Reco
 > - **VariableEnvironment**: Identifies the `Environment Record` that holds bindings created by VariableStatements within this execution context.
 
 > The **LexicalEnvironment** and **VariableEnvironment** components of an execution context are always `Environment Records`.
+
+---
+
+## Reference
+- [ECMAScript® Language Specification](https://tc39.es/ecma262/)
